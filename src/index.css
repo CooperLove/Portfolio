@@ -182,8 +182,8 @@ nav {
   color: var(--clr-white);
 }
 .links button:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: var(--clr-primary-1);
+  /* color: var(--clr-primary-5); */
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }

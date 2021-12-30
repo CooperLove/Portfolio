@@ -11,7 +11,10 @@ function Intro() {
   // $(window).scroll(function () {
   //   checkAnimation();
   // });
-
+  const scrollToContact = () => {
+    var ele = document.getElementById("contato");
+    window.scrollTo({ top: ele.offsetTop, behavior: "smooth" });
+  };
   return (
     <article>
       <div className="intro-container" id="home">
@@ -23,7 +26,9 @@ function Intro() {
           </h1>
           {/* <h1>Eu sou Pedro Leonardo</h1> */}
           {/* <h1>Web Developer</h1> */}
-          <button className="contactBtn">Contate-me</button>
+          <button className="contactBtn" onClick={() => scrollToContact()}>
+            Contate-me
+          </button>
         </div>
         <div>
           <img className="intro-img" src={photoUrl} alt="eu" />

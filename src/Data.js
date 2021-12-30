@@ -4,7 +4,7 @@ export const links = [
   {
     id: 1,
     url: "/about",
-    text: "Sobre",
+    text: "sobre",
   },
   {
     id: 2,
@@ -70,7 +70,7 @@ export const projects = [
     id: 4,
     title: "Accordion",
     img: "https://images.pexels.com/photos/208494/pexels-photo-208494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Site de Q&A. Nele é possível ver a utilização de ...",
+    desc: "Site de Q&A.",
     url: "https://github.com/CooperLove/accordion",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
 export const technologiesIcon = [
   {
     id: 1,
-    title: "JavaScrip",
+    title: "JavaScript",
     url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
   },
   {

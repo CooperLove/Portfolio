@@ -5,7 +5,7 @@ import { AiOutlineSend } from "react-icons/ai";
 
 function Contact() {
   return (
-    <article className="parent-contact-container" id="contact">
+    <article className="parent-contact-container" id="contato">
       <div className="about-title">
         <h2>Entre em contato</h2>
         <div className="underline"></div>

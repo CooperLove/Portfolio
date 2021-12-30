@@ -3,7 +3,7 @@ import { technologiesIcon } from "../Data";
 
 function Technologies() {
   return (
-    <article className="technologies-container" id="technologies">
+    <article className="technologies-container" id="tecnologias">
       <div className="about-title">
         <h2>Tecnologias</h2>
         <div className="underline"></div>

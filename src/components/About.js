@@ -3,7 +3,7 @@ import { photoUrl } from "../Data";
 
 function About() {
   return (
-    <article className="about-container" id="about">
+    <article className="about-container" id="sobre">
       <div className="about-title">
         <h2>Sobre</h2>
         <div className="underline"></div>
