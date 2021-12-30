@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Navbar";
+import Footer from "./components/Footer";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import { BsArrowUpSquareFill } from "react-icons/bs";
+import Technologies from "./components/Technologies";
 
 function App() {
+  const scrollToHome = () => {
+    var ele = document.getElementById("navHome");
+    window.scrollTo({ top: ele.offsetTop, behavior: "smooth" });
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="App">
+      <Navbar />
+      <main>
+        <BsArrowUpSquareFill
+          className="backHomeBtn"
+          onClick={() => scrollToHome()}
+        />
+        <Intro />
+        <About />
+        <Technologies />
+        <Projects />
+        <Contact />
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 }
