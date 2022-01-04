@@ -23,7 +23,8 @@ function Contact() {
             <MdOutlineMail className="contact-info-card-icon" />
             <div className="contact-info-card-text">
               <h4>Email</h4>
-              {"godloveqwer@gmail.com"}
+              {/* {"godloveqwer@gmail.com"} */}
+              <h5>godloveqwer@gmail.com</h5>
             </div>
           </div>
         </div>

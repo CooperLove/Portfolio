@@ -18,12 +18,9 @@ function Intro() {
   return (
     <article>
       <div className="intro-container" id="home">
-        <div>
-          <h1>
-            Olá, <br />
-            Eu sou Pedro Leonardo <br />
-            Web Developer
-          </h1>
+        <div className="intro-title">
+          <h1>Pedro Leonardo</h1>
+          <h3>Web Developer</h3>
           {/* <h1>Eu sou Pedro Leonardo</h1> */}
           {/* <h1>Web Developer</h1> */}
           <button className="contactBtn" onClick={() => scrollToContact()}>
