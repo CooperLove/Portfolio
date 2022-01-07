@@ -231,8 +231,8 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 5%;
-  height: 100vh;
-  padding-bottom: 20vh;
+  height: 75vh;
+  /* padding-bottom: 20vh; */
   overflow: hidden;
 }
 .intro-img {
@@ -240,8 +240,8 @@ nav {
   object-fit: cover;
   width: 25rem;
   height: 25rem;
-  animation: introImg;
-  animation-duration: 1.5s;
+  /* animation: introImg;
+  animation-duration: 1.5s; */
   /* transform: translateX(100%); */
 }
 .intro-title h3 {
@@ -280,7 +280,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 80px;
 }
 
 .about-content-container p {
@@ -288,7 +290,7 @@ nav {
 }
 
 .about-container {
-  height: 120vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -303,6 +305,13 @@ nav {
   color: #fff;
 }
 
+.about-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
 .underline {
   width: 200px;
   height: 5px;
@@ -311,7 +320,7 @@ nav {
 }
 
 .about-container p {
-  width: 25%;
+  /* width: 25%; */
   text-align: justify;
 }
 
@@ -325,7 +334,7 @@ nav {
 .projects-container {
   display: flex;
   align-items: center;
-  height: 125vh;
+  height: 110vh;
   flex-direction: column;
 }
 
@@ -379,7 +388,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  height: 85vh;
 }
 
 .contact-container {
@@ -528,10 +537,6 @@ input[type="text"] {
   }
 }
 @media screen and (max-width: 850px) {
-  .intro-img {
-    width: 20rem;
-    height: 20rem;
-  }
   .intro-container {
     flex-direction: column;
     text-align: center;
@@ -543,10 +548,7 @@ input[type="text"] {
   h1 {
     font-size: 2rem;
   }
-  .about-img {
-    width: 15rem;
-    height: 25rem;
-  }
+
   .about-content-container {
     gap: 10%;
   }
@@ -598,9 +600,14 @@ input[type="text"] {
   }
   .about-img {
     margin-bottom: 1.5rem;
+    width: 13rem;
+    height: 15rem;
   }
   .about-container p {
     width: 75%;
+  }
+  .about-desc {
+    width: 100%;
   }
   .projects-container {
     height: 180vh;
@@ -614,6 +621,10 @@ input[type="text"] {
   .technologies-img {
     width: 40px;
     height: 40px;
+  }
+  .intro-img {
+    width: 15rem;
+    height: 15rem;
   }
 }
 @media screen and (min-width: 850px) {
